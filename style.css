@@ -1,22 +1,19 @@
 @font-face {
 font-family: 'DINNeuzeitGroteskStd-Light';
-src: font-url('DINNeuzeitGroteskStd-Light.otf');
+src: url('assets/DINNeuzeitGroteskStd-Light.otf');
 font-weight: normal;
 font-style: normal;
 }
-
-$title-font: 'DINNeuzeitGroteskStd-Light', sans-serif;
-$title-spacing: 11px;
 
 
 .navbar-inner {
   background-color: transparent;
   background: transparent;
   border-color: transparent;
-  font-family: $title-font, arial, sans-serif;
+  font-family: 'DINNeuzeitGroteskStd-Light', arial, sans-serif;
 }
 .navbar-brand {
-  letter-spacing: $title-spacing;
+  letter-spacing: 11px;
   color: white;
 }
 a:link {
@@ -36,7 +33,7 @@ a:hover {
 }
 
 body {
-  background: url("cc-bg.png") no-repeat center center fixed;
+  background: url("assets/cc-bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
