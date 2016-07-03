@@ -1,0 +1,61 @@
+@font-face {
+font-family: 'DINNeuzeitGroteskStd-Light';
+src: font-url('DINNeuzeitGroteskStd-Light.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+$title-font: 'DINNeuzeitGroteskStd-Light', sans-serif;
+$title-spacing: 11px;
+
+
+.navbar-inner {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  font-family: $title-font, arial, sans-serif;
+}
+.navbar-brand {
+  letter-spacing: $title-spacing;
+  color: white;
+}
+a:link {
+  color: #fff;
+}
+
+a:active {
+  color: #66d9ff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #000;
+}
+
+body {
+  background: url("cc-bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-family: $title-font;
+  letter-spacing: $title-spacing;
+  color: white;
+  text-align: center;
+}
+
+.topper {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.logo {
+  margin-top: 50px;
+  padding: 20px;
+}
