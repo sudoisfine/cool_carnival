@@ -10,10 +10,12 @@ font-style: normal;
   background-color: transparent;
   background: transparent;
   border-color: transparent;
+  padding-top: 1em;
   font-family: 'DINNeuzeitGroteskStd-Light', arial, sans-serif;
 }
 .navbar-brand {
-  letter-spacing: 11px;
+  font-size: 3em;
+  letter-spacing: .5em;
   color: white;
 }
 a:link {
@@ -41,8 +43,8 @@ body {
 }
 
 h1 {
-  font-family: $title-font;
-  letter-spacing: $title-spacing;
+  font-family: 'DINNeuzeitGroteskStd-Light';
+  letter-spacing: 11px;
   color: white;
   text-align: center;
 }
